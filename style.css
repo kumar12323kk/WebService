@@ -230,20 +230,19 @@ html {
 }
 .card-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 10px 16px;
-  background-color: #ff7f50; /* Same Coral Color */
+  background-color: #ff7f50; /* same coral orange */
   color: white;
-  font-weight: 500;
+  padding: 12px 20px;
   text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.3s ease;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 .card-btn:hover {
-  background-color: #ff5722; /* Slightly darker on hover */
+  background-color: #e5673c;
 }
-  
   /* Contact */
   /* Flex container to center content */
   .contact {
