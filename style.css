@@ -373,28 +373,38 @@ html {
   }
   
   /* Badges */
-  .badges {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #ff7f50;
-    color: white;
-  }
-  
-  .badge {
-    display: inline-block;
-    background-color: #ff6f3c;
-    border-radius: 50px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    cursor: default;
-  }
-  
-  .badge i {
-    margin-right: 8px;
-  }
-  
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allows it to go to next line if needed */
+  gap: 15px; /* space between badges */
+  padding: 20px 0;
+  background-color: #ff7f50;
+  color: white;
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #ff6f3c;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: default;
+  font-size: 1rem;
+  min-width: 160px;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  gap: 8px;
+}
+
+.badge i {
+  margin-right: 8px;
+}
   /* FAQ */
   .faq {
     max-width: 700px;
