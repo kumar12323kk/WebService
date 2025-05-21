@@ -1,8 +1,14 @@
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.querySelector('.nav-links');
+const closeBtn = document.querySelector('.close-btn');
 
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active');
+});
+
+
+closeBtn.addEventListener('click', () => {
+  navLinks.classList.remove('active');
 });
 
 // WhatsApp form submission
